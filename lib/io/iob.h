@@ -602,7 +602,6 @@ extern "C"{
     int number_of_thermometers();
 
     //@}
-#endif
 
     /**
      * @name thermometer
@@ -618,6 +617,7 @@ extern "C"{
      */
     int read_temperature(int id, double *v);
     //@}
+#endif
 
     /**
      * @name open/close 
